@@ -1,0 +1,110 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+body{
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Andika', sans-serif;
+  background-size: cover ;
+  background-position: center;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #DDDDDD;
+}
+
+main{
+  margin: 1.2em;
+  margin-bottom: 100px;
+}
+
+h1{
+  color: #c12258;
+  font-size: 2em;
+  line-height: 2;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+p{
+  padding-top: 15px;
+}
+
+a{
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-style: wavy;
+}
+
+table{
+  border: 2px solid #000000;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.colhead{
+  background-color: #7e0820;
+  color: #FFFFFF;
+  min-width: 125px;
+  padding: 10px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.rowhead{
+  border-top: solid 2px #000000;
+  border-right: solid 2px #000000;
+  vertical-align: middle;
+}
+
+td{
+  border-top: solid 2px #000000;
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color: #D1D1D1;
+}
+
+tr:hover{
+  background-color: rgba(126, 8, 48, 0.25)
+}
+
+*:focus{
+  border: dashed 3px #417243;
+}
+
+thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
+
+thead tr:first-child th:last-child{
+  border-top-right-radius: 10px;
+}
+
+tbody tr:last-child th{
+  border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+
+footer{
+  width:100%;
+  background:#000000;
+  text-align:center;
+  color: #FFFFFF;
+  min-height: 75px;
+  position: fixed;
+  bottom: 0;
+}
+
