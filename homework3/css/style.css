@@ -75,7 +75,7 @@ tr:nth-child(even){
 }
 
 tr:hover{
-  background-color: rgba(126, 8, 48, 0.25)
+  background-color: rgba(126, 8, 32,.25)
 }
 
 *:focus{
