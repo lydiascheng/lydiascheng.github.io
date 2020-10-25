@@ -46,6 +46,10 @@ a{
   text-decoration-style: wavy;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 table{
   border: 2px solid #000000;
   margin: 0 auto;
