@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Lydia Cheng</title>
+</head>
+<body>
+	<div class="skip"><a href="#main">Skip to Main Content</a></div>
+	<header>
+		<div class="visible">
+			<i class="fa fa-bars" id="hamburger" onclick="myFunction()"></i>
+			<a href="index.html"><h1>LYDIA</h1></a>
+		</div>
+		<nav id="navigation">
+			<ul>
+				<li><a class="broader" id="red_text" href="projects.html">projects</a></li>
+				<li><a href="projects.html#ux_design">ux design</a></li>
+				<li><a href="projects.html#graphic_design">graphic design</a></li>
+				<li><a href="projects.html#coding">coding</a></li>
+				<li><a class="broader" id="yellow_text" href="about me.html">about me</a></li>
+				<li><a href="about me.html#resume">resume</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="home">
+		<p class="landing_text" id="landing_text_top">Hello, I am</p>
+		<h1 id="landing_name">LYDIA CHENG</h1>
+		<p class="landing_text" id="landing_text_bottom">and I like to do<br><a href="projects.html#ux_design">ux design</a>,<br><a href="projects.html#graphic_design">graphic design</a>,<br>and <a href="projects.html#coding">code</a></p>
+	</main>
+	<footer>
+		<p>linkedin</p>
+		<p>contact me</p>
+	</footer>
+</body>
+</html>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navigation");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>

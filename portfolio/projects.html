@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>projects</title>
+</head>
+
+<body>
+	<div class="skip"><a href="#main">Skip to Main Content</a></div>
+	<header>
+		<div class="visible">
+			<i class="fa fa-bars" id="hamburger" onclick="myFunction()"></i>
+			<a href="index.html"><h1>LYDIA</h1></a>
+		</div>
+		<nav id="navigation">
+			<ul>
+				<li><a class="broader" id="red_text" href="projects.html">projects</a></li>
+				<li><a href="projects.html#ux_design">ux design</a></li>
+				<li><a href="projects.html#graphic_design">graphic design</a></li>
+				<li><a href="projects.html#coding">coding</a></li>
+				<li><a class="broader" id="yellow_text" href="about me.html">about me</a></li>
+				<li><a href="about me.html#resume">resume</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="projects_overview">
+		<div id="ux_design">
+			<h1>UX DESIGN</h1>
+			<img src="images/ux design/design clinic/design clinic.png" alt="design clinic fall 2020">
+			<a href="deloitte design jam.html"><img src="images/ux design/deloitte design jam/deloitte design jam.png" alt="deloitte design jam"></a>
+			<img src="images/ux design/summer design jam/summer design jam.png" alt="covid connection design jam">
+			<img src="images/ux design/engaged learning design jam/engaged learning design jam.png" alt="empowered learning design jam">
+		</div>
+		<div id="transition_ux_graphic"></div>
+		<div id="graphic_design">
+			<h1>GRAPHIC DESIGN</h1>
+			<img src="images/graphic design/opp hub/opp hub.png" alt="opportunity hub">
+			<img src="images/graphic design/hoffman agency/hoffman agency.png" alt="the hoffman agency">
+			<img src="images/graphic design/itasa/itasa.png" alt="itasa">
+			<img src="images/graphic design/classwork/classwork.png" alt="graphic design class">
+		</div>
+		<div id="transition_graphic_code"></div>
+		<div id="coding">
+			<h1>CODING</h1>
+			<img src="images/coding/coding.png" alt="this website">
+		</div>
+	</main>
+	<footer>
+		<p>linkedin</p>
+		<p>contact me</p>
+	</footer>
+</body>
+</html>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navigation");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
