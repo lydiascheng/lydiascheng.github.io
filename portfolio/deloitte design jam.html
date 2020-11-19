@@ -13,13 +13,13 @@
 	<div class="skip"><a href="#main">Skip to Main Content</a></div>
 	<header>
 		<div class="visible">
-			<i class="fa fa-bars" id="hamburger" onclick="myFunction()"></i>
+			<i class="fa fa-bars" id="hamburger"></i>
 			<a href="index.html"><h1>LYDIA</h1></a>
 		</div>
 		<nav id="navigation">
 			<ul>
 				<li><a class="broader" id="red_text" href="projects.html">projects</a></li>
-				<li><a href="projects.html#ux_design">ux design</a></li>
+				<li id="current"><a href="projects.html#ux_design">ux design</a></li>
 				<li><a href="projects.html#graphic_design">graphic design</a></li>
 				<li><a href="projects.html#coding">coding</a></li>
 				<li><a class="broader" id="yellow_text" href="about me.html">about me</a></li>
@@ -27,7 +27,7 @@
 			</ul>
 		</nav>
 	</header>
-	<main class="ux_design">
+	<main id="main" class="ux_design">
 		<div class="project" id="landing">
 			<img id="project_image" src="images/ux design/deloitte design jam/deloitte.png" alt="Deloitte">
 			<h1>Applied AI Design Jam</h1>
@@ -54,12 +54,12 @@
 					<h2>personas</h2>
 					<p>By initially identifying our two main target audiences, we made personas based on each of them to gain a better understanding of their wants, pain points, etc.</p>
 					<div>
-						<img src="images/ux design/deloitte design jam/frank.png">
+						<img alt="frank" src="images/ux design/deloitte design jam/frank.png">
 						<h3>ultimate fan frank</h3>
 						<p><em>“I miss being able to talk about the games with my friends, it’s hard to do that over Facetime while the game going on in the background.”</em></p>
 					</div>
 					<div>
-						<img src="images/ux design/deloitte design jam/sara.png">
+						<img alt="sara" src="images/ux design/deloitte design jam/sara.png">
 						<h3>social sara</h3>
 						<p><em>“Honestly, I have no idea how football works. I just like to tailgate with all my friends.”</em></p>
 					</div>
@@ -94,15 +94,4 @@
 	</footer>
 </body>
 </html>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("navigation");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
 

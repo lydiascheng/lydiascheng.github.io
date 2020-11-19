@@ -42,21 +42,23 @@ header h1 {
 }
 
 nav {
-	display: none;
-	padding-top: 25px;
+	display: block;
+	padding-top: 130px;
 	padding-bottom: 20px;
-	position: absolute;
 	width: 100%;
 	top: 105px;
 	background: #FFFFFF;
-	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
 	display: block;
 	text-align: center;
 	line-height: 38px;
-	text-decoration: none;
+}
+
+nav li#current {
+	text-decoration: underline;
 }
 
 .broader {
@@ -84,11 +86,11 @@ footer p {
 }
 
 #red_text {
-	color: #B4685E;
+	color: #3D4E73;
 }
 
 #yellow_text {
-	color: #DBC167;
+	color: #3D4E73;
 }
 
 button {
@@ -103,10 +105,10 @@ button {
 	font-size: 24px;
 }
 
-#home {
+.home {
 	display: grid;
-	grid-template-rows: 150px 45px 180px 110px 390px;
-	background: linear-gradient(164.24deg, #7B96A5 0%, #72BED6 100%);
+	grid-template-rows: 35px 45px 180px 110px 75px;
+	background: linear-gradient(164.24deg, #3D4E73 0%, #3D4E73 100%);
 }
 
 .landing_text {
@@ -151,7 +153,7 @@ button {
 main.projects_overview {
 	display: grid;
 	width: 100%;
-	grid-template-rows: 100px auto 100px auto 100px auto;
+	grid-template-rows: 0px auto 100px auto 100px auto;
 }
 
 .projects_overview h1 {
@@ -172,7 +174,7 @@ main.projects_overview {
 .projects_overview div#ux_design {
 	grid-row: 2 / 3;
 	grid-column: 1 / -1;
-	background-color: #B4685E;
+	background-color: #3D4E73;
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
@@ -180,26 +182,26 @@ main.projects_overview {
 #transition_ux_graphic {
 	grid-row: 3 / 4;
 	grid-column: 1 / -1;
-	background: linear-gradient(179.37deg, #B4685E 0.54%, #5F7953 99.46%);
+	background: linear-gradient(179.37deg, #3D4E73 0.54%, #3D4E73 99.46%);
 }
 
 .projects_overview div#graphic_design {
 	grid-row: 4 / 5;
 	grid-column: 1 / -1;
-	background-color: #5F7953;
+	background-color: #3D4E73;
 	padding: 15px 0px;
 }
 
 #transition_graphic_code {
 	grid-row: 5 / 6;
 	grid-column: 1 / -1;
-	background: linear-gradient(179.37deg, #5F7953 0.54%, #5B507A 99.46%);
+	background: linear-gradient(179.37deg, #3D4E73 0.54%, #3D4E73 99.46%);
 }
 
 .projects_overview div#coding {
 	grid-row: 6 / 7;
 	grid-column: 1 / -1;
-	background-color: #5B507A;
+	background-color: #3D4E73;
 	padding: 15px 0px;
 }
 
@@ -241,11 +243,11 @@ main.projects_overview {
 }
 
 .ux_design h1, .ux_design h2, .ux_design h3, .ux_design h4, .ux_design h5, .ux_design h6 {
-	color: #B4685E;
+	color: #3D4E73;
 }
 
 .ux_design button {
-	background: #B4685E;
+	background: #3D4E73;
 }
 
 div#landing {
@@ -300,12 +302,12 @@ div.last {
 }
 
 .ux_design div.extra {
-	background: #B4685E;
+	background: #3D4E73;
 }
 
 .ux_design .extra button {
 	background: #FFFFFF;
-	color: #B4685E;
+	color: #3D4E73;
 }
 
 .about_me {
@@ -313,14 +315,8 @@ div.last {
 	text-align: center;
 }
 
-#lydia {
-	display: block;
-	width: 80%;
-	padding-top: 170px;
-	padding-bottom: 50px;
-}
-
 h2.about_me {
+	padding-top: 50px;
 	font-family: Lato, Helvetica, Arial, sans-serif;
 	font-size: 24px;
 }
@@ -328,7 +324,7 @@ h2.about_me {
 h1.about_me {
 	font-size: 64px;
 	line-height: 85px;
-	padding-bottom: 70px;
+	padding-bottom: 40px;
 }
 
 p.about_me {
@@ -353,6 +349,6 @@ p.about_me {
 }
 
 #resume {
-	background: #5B507A;
+	background: #3D4E73;
 	margin-bottom: 50px;
 }

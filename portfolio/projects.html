@@ -13,12 +13,12 @@
 	<div class="skip"><a href="#main">Skip to Main Content</a></div>
 	<header>
 		<div class="visible">
-			<i class="fa fa-bars" id="hamburger" onclick="myFunction()"></i>
+			<i class="fa fa-bars" id="hamburger"></i>
 			<a href="index.html"><h1>LYDIA</h1></a>
 		</div>
 		<nav id="navigation">
 			<ul>
-				<li><a class="broader" id="red_text" href="projects.html">projects</a></li>
+				<li id="current"><a class="broader" id="red_text" href="projects.html">projects</a></li>
 				<li><a href="projects.html#ux_design">ux design</a></li>
 				<li><a href="projects.html#graphic_design">graphic design</a></li>
 				<li><a href="projects.html#coding">coding</a></li>
@@ -27,7 +27,7 @@
 			</ul>
 		</nav>
 	</header>
-	<main class="projects_overview">
+	<main class="projects_overview" id="main">
 		<div id="ux_design">
 			<h1>UX DESIGN</h1>
 			<img src="images/ux design/design clinic/design clinic.png" alt="design clinic fall 2020">
@@ -56,13 +56,3 @@
 </body>
 </html>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("navigation");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
