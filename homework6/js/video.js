@@ -47,15 +47,13 @@ document.querySelector("#skip").addEventListener("click", function() {
 });
 
 document.querySelector("#mute").addEventListener("click", function() {
-	let mute = document.querySelector("#mute").innerHTML;
-
 	if (video.muted) {
 		video.muted = false;
-		mute = "Mute";
+		this.innerHTML = "Mute";
 	}
 	else {
 		video.muted = true;
-		mute = "Unmute";
+		this.innerHTML = "Unmute";
 	}
 });
 
